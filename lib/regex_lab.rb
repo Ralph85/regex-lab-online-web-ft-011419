@@ -17,7 +17,7 @@ def words_starting_with_un_and_ending_with_ing(text)
   def first_word_capitalized_and_ends_with_punctuation?(text)
     if text.match(/^[A-Z].+[\.!?]$/) then
       return true
-    else 
+    else
       return false
     end
   end
